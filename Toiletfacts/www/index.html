@@ -15,32 +15,54 @@
         </header>
     <article>
         <div class="textbox">
+            <div class="text-center">
             <div class="content">
                 <h2>Welcome to toiletlearning</h2>
                 <h4>Funfacts on the can</h4>
-            <textarea id="txtbox" style="width:100%;" background-color="#f0f0f0" readonly></textarea>
+            <textarea id="txtbox" readonly></textarea>
 
-<button class="button" onClick="quotes()">Click Here</button>
+<button class="button" onClick="quotes()">Click Here for random fact</button>
 
 <script language="javascript">
 function quotes(){
 
 var aquote = new Array;
-aquote[0]="\"Zebras cant see the color green.\"";
-aquote[1]="\"The author of this app actually doesnt know programming.\"";
-aquote[2]="\"This is a random fun fact.\""
+aquote[0]="\"1.Norway is the richest country per capita.\"";
+aquote[1]="\"2.If you were to breed a horse and a zebra you would get a Zorse.\"";
+aquote[2]="\"3. Cats can have downs syndrome.\"";
+    aquote[3]="\"4.The foreskin makes the penis cleaner and protects against STDs.\"";
+aquote[4]="\"5.Over 1/3 of all Java-programmers are from India.\"";
+aquote[5]="\"6. Africa is the richest continent by resources.\"";
+    aquote[6]="\"7.Sweden has more than 3000 registeres sexes, including fish.\"";
+aquote[7]="\"8.It takes 20 hours of concentrated work to become beginner-level in a subject.\"";
+aquote[8]="\"9. It takes roughly 10.000 hours to become expert-level in a subject.\"";
+    aquote[9]="\"10. To master the art of kungfu it takes over 50.000 hours.\"";
+aquote[10]="\"11.It is possible to think yourself Cancer-free.\"";
+aquote[11]="\"12. Some people are born with a geneproblem which makes them immune to pain.\"";
+    aquote[12]="\"13. Epileptics often bite their tongue off during seziures.\"";
+aquote[13]="\"14.The most expensive commodity in 100 years will be water.\"";
+aquote[14]="\"15. There is a snus that costs 1000nkr a box.\"";
+    aquote[15]="\"16. Hillary clinton is the least popular president to date.\"";
+aquote[16]="\"17. 98% of all statistics are made up,including this one.\"";
+aquote[17]="\"18.President Obama is hawain born with muslim roots.\"";
+    aquote[18]="\"19. Funfacts daily increase brain function by 10%.\"";
+    aquote[19]="\"20. Surbit is a company that makes apps.\""
 
 rdmQuote = Math.floor(Math.random()*aquote.length);
 document.getElementById("txtbox") .value=aquote[rdmQuote];
 }
 
 </script>
+
+</script>
+                </div>
             </div>
         </div>
     </article>
 
     
     
-    
+    <footer>
+    <h1>Made by Surbitrol</h1></footer>
 </body>
 </html>
