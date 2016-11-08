@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+      
+    
+</head>
+<body>
+    <header class="header" >
+        <div class="text-center"></div>
+    <h1> Header</h1>
+        </div>
+        </header>
+    <article>
+        <div class="textbox">
+            <div class="content">
+                <h2>Welcome to toilet facts</h2>
+            <textarea id="txtbox" style="width:100%;" readonly></textarea>
+
+<button class="button" onClick="quotes()">Click Here</button>
+
+<script language="javascript">
+function quotes(){
+
+var aquote = new Array;
+aquote[0]="\"Zebras cant see the color green.\"";
+aquote[1]="\"The author of this app actually doesnt know programming.\"";
+aquote[2]="\"This is a random fun fact.\""
+
+rdmQuote = Math.floor(Math.random()*aquote.length);
+document.getElementById("txtbox") .value=aquote[rdmQuote];
+}
+
+</script>
+            </div>
+        </div>
+    </article>
+
+    
+    
+    
+</body>
+</html>
